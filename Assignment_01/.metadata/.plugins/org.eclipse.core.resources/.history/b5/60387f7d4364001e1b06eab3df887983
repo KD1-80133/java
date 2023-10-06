@@ -1,0 +1,22 @@
+
+public class Assignment1_03 {
+
+	public static void main(String[] args) {
+		int choice;
+		System.out.println("0.exit");
+		System.out.println("1.Dosa");
+		System.out.println("2.Idili");
+		System.out.println("3.Poha");
+		System.out.println("4.");
+		System.out.println("0.exit");
+		System.out.println("0.exit");
+		System.out.println("0.exit");
+		System.out.println("0.exit");
+		System.out.println("0.exit");
+		System.out.println("0.exit");
+		
+		
+
+	}
+
+}

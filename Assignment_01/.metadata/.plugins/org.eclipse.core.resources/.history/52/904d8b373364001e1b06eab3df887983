@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Assignment1_02 {
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Enter first number");
+		if (scanner.hasNextDouble())
+		{
+			double num1=scanner.nextDouble();
+			System.out.println("Enter second number")
+		}
+
+	}
+
+}

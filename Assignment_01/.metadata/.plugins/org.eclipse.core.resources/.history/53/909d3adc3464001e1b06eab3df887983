@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Assignment1_02 {
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Enter first number");
+		if (scanner.hasNextDouble())
+		{
+			System.out.println("-------");
+			double num1=scanner.nextDouble();
+			System.out.println("Enter second number");
+			if (scanner.hasNextDouble())
+			{
+				System.out.println("-------");
+				double num2=scanner.nextDouble();
+				double average=(num1+num2)/2;
+				System.out.println("Avrage of number ="+average);
+			}
+			else
+			{
+				System.out.println("num2 is not double ");		
+			}
+			
+		}
+		
+	    else
+	    {
+		   System.out.println("num1 is not double");
+	     }
+		scanner.close();
+}
+}
