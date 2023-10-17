@@ -1,4 +1,4 @@
-package assignment7_02;
+package assignment9_02;
 import java.util.*;
 public class Genricsort {
     static <T> void selectionSort(T[] arr, Comparator<T> c) {

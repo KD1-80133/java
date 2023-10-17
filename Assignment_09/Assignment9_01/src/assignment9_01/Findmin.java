@@ -12,7 +12,7 @@ public class Findmin {
 		return min;
 	}
 	 static void main(String[] args) {
-		Integer[] arr1= {12,33,54,44,55,12};
+		Integer[] arr1= {12,33,54,44,55,2};
 		Integer min1=findmin(arr1);
 		System.out.println("Minimum in arr1:"+min1);
 		

@@ -1,4 +1,4 @@
-package assignment7_03;
+package assignment9_03;
 
 public class Student {
 	private int roll;
@@ -7,7 +7,7 @@ public class Student {
 	private double marks;
 	
 	public Student() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public Student(int roll, String name, String city, double marks) {
