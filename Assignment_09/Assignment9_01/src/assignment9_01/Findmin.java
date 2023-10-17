@@ -1,4 +1,4 @@
-package assignment7_01;
+package assignment9_01;
 public class Findmin {
 	static <T extends Number> T findmin(T[] arr)
 	{
