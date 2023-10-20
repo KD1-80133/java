@@ -30,12 +30,11 @@ public class Library {
 				Book book1=map.get(isbn);
 				if(book1!=null)
 				{
-					System.out.println("Book Found...");
-					book1.toString();
+					System.out.println("Book Found...\n"+book1.toString());
 				}
 				else
 				{
-					System.out.println("Book not found..Please enter the valid ISBN:"+isbn);
+					System.out.println("Book not found..Please enter the valid ISBN:");
 				}
 				break;
 			}
