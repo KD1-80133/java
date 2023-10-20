@@ -18,7 +18,7 @@ public class Labor implements Employee{
 	public double calcIncentives() {
 		if(hours>300)
 		{
-		return getSal()*0.5;
+		return getSal()*0.05;
 		}
 		else
 		{
